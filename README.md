@@ -6,4 +6,4 @@ and this is some text.
 * item one
 * item two
 
-[here is a link](./game/game.html)
+[here is a link](game/game.html)
