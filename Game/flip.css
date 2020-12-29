@@ -1,0 +1,43 @@
+
+
+body {
+    margin: 0;
+    background-color: gray;
+
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+   backface-visibility: hidden;
+
+
+
+}
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+
+
+
+}
+
+.clicked {
+transform: rotateY(180deg);
+}
+
